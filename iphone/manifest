@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 2
+architectures: armv7 arm64 i386 x86_64
+description: tisiri
+author: Ani Sinanaj
+license: Specify your license
+copyright: Copyright (c) 2017 by Caffeina
+
+# these should not be edited
+name: tisiri
+moduleid: com.caffeina.tisiri
+guid: 7be744a8-e8b7-45a4-89e6-34248c133caf
+platform: iphone
+minsdk: 6.1.0
