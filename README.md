@@ -1,3 +1,5 @@
+# ti.siri
+
 Appcelerator Titanium Mobile Module Project
 ===========================================
 
@@ -69,7 +71,7 @@ Register your module with your application by editing `tiapp.xml` and adding you
 Example:
 
 <modules>
-	<module version="0.1">com.caffeina.tisiri</module>
+    <module version="0.1">com.caffeina.tisiri</module>
 </modules>
 
 When you run your project, the compiler will combine your module along with its dependencies
@@ -83,8 +85,8 @@ To use your module in code, you will need to require it.
 
 For example,
 
-	var my_module = require('com.caffeina.tisiri');
-	my_module.foo();
+    var my_module = require('com.caffeina.tisiri');
+    my_module.foo();
 
 
 TESTING YOUR MODULE
@@ -92,7 +94,7 @@ TESTING YOUR MODULE
 
 To test with the script, execute:
 
-	titanium run --dir=YOURMODULEDIR
+    titanium run --dir=YOURMODULEDIR
 
 This will execute the app.js in the example folder as a Titanium application.
 
